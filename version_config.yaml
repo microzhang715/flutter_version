@@ -1,0 +1,26 @@
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  
+flutter:
+  uses-material-design: true
+
+# 开发环境依赖版本控制
+iot_dev_version:
+  pub_url: https://jfrog.transsion.iot:4432/artifactory/api/pub/flutter-dev-local/
+  version_list:
+    - trans_flutter_interface_watch_device: xxxx
+    - trans_flutter_sdk_watch_device: xxx
+
+# 发布环境依赖版本控制
+iot_release_version:
+  pub_url: https://jfrog.transsion.iot:4432/artifactory/api/pub/flutter-prod-local/
+  version_list:
+    - trans_flutter_interface_watch_device: xxxx
+    - trans_flutter_sdk_watch_device: xxx
+
