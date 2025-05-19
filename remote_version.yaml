@@ -3,19 +3,25 @@ environment:
   # flutter: ">=1.17.0"
 
 dependencies:
+  flutter:
+    sdk: flutter
   cupertino_icons: ^1.0.8
-  get: ^4.7.2
-
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
-
-  cupertino_icons: ^1.0.8
 
 flutter:
   uses-material-design: true
+
+# Release: Pub仓库发布环境依赖版本控制
+pub_release_dependencies:
+  path_provider: ^2.1.5
+  get: ^4.7.2
+
+# DEV: Pub仓库开发环境依赖版本控制
+pub_dev_dependencies:
+  path_provider: ^2.1.5
 
 # 开发环境依赖版本控制
 iot_dev_dependencies:
