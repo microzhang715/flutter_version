@@ -22,6 +22,7 @@ pub_release_dependencies:
 # DEV: Pub仓库开发环境依赖版本控制
 pub_dev_dependencies:
   path_provider: ^2.1.5
+  get: ^4.7.2
 
 # 开发环境依赖版本控制
 iot_dev_dependencies:
