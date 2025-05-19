@@ -35,6 +35,7 @@ iot_dev_dependencies:
   version_list:
     trans_flutter_interface_watch_device: ^0.1.15
     trans_flutter_sdk_watch_device: ^0.1.13
+    trans_flutter_lib_architecture: ^0.0.4
 
 # 发布环境依赖版本控制
 iot_release_dependencies:
@@ -42,3 +43,4 @@ iot_release_dependencies:
   version_list:
     trans_flutter_interface_watch_device: ^0.1.15
     trans_flutter_sdk_watch_device: ^0.1.13
+    trans_flutter_lib_architecture: ^0.0.4
