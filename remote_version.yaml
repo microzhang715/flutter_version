@@ -1,3 +1,4 @@
+homepage: https://jfrog.transsion.iot:4432
 environment:
   sdk: ^3.6.0
   # flutter: ">=1.17.0"
