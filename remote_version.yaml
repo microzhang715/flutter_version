@@ -11,6 +11,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^5.0.0
 
 flutter:
   uses-material-design: true
@@ -18,8 +19,12 @@ flutter:
 # Release: Pub仓库发布环境依赖版本控制
 pub_dependencies:
   path_provider: ^2.1.5
-  get: ^4.7.2
   dio: ^5.7.0
+
+# pub_dependencies没有，但是特定项目需要的，在这个地方进行配置
+independent_project:
+  lib_architecture:
+    get: ^4.7.2
 
 #pub_release_dependencies:
 #  path_provider: ^2.1.5
