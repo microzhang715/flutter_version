@@ -6,7 +6,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.8
+  # cupertino_icons: ^1.0.8
 
 dev_dependencies:
   flutter_test:
@@ -21,7 +21,7 @@ pub_dependencies:
   path_provider: ^2.1.5
   dio: ^5.7.0
 
-# pub_dependencies没有，但是特定项目需要的，在这个地方进行配置
+# pub_dependencies没有，但是特定项目需要的，在这个地方进行配置 release依赖
 independent_project:
   lib_architecture:
     get: ^4.7.2
