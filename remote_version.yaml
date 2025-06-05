@@ -20,7 +20,14 @@ flutter:
 pub_dependencies:
   path_provider: ^2.1.5
   dio: ^5.7.0
-
+  go_router: ^15.1.2
+  isar:
+    hosted: https://pub.isar-community.dev
+    version: 4.0.3
+  isar_flutter_libs:
+    hosted: https://pub.isar-community.dev
+    version: 4.0.3
+  
 # pub_dependencies没有，但是特定项目需要的，在这个地方进行配置 release依赖
 independent_project:
   lib_architecture:
@@ -48,7 +55,7 @@ iot_dev_dependencies:
 iot_release_dependencies:
   pub_url: https://jfrog.transsion.iot:4432/artifactory/api/pub/flutter-prod-local/
   version_list:
-    trans_flutter_interface_watch_device: ^0.1.15
-    trans_flutter_sdk_watch_device: ^0.1.13
-    trans_flutter_lib_architecture: ^0.0.18
-    trans_flutter_lib_logger: ^0.0.19
+    # trans_flutter_interface_watch_device: ^0.1.15
+    # trans_flutter_sdk_watch_device: ^0.1.13
+    # trans_flutter_lib_architecture: ^0.0.18
+    # trans_flutter_lib_logger: ^0.0.19
