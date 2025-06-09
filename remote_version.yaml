@@ -17,30 +17,29 @@ flutter:
   uses-material-design: true
 
 # Release: Pub仓库发布环境依赖版本控制
-pub_dependencies:
+pub_release_dependencies:
   path_provider: ^2.1.5
-  dio: ^5.7.0
+  # 网络库
+  dio: ^5.8.0+1
+  retrofit: ^4.4.2
   go_router: ^15.1.2
+  json_annotation: ^4.9.0
   isar:
     hosted: https://pub.isar-community.dev
-    version: 4.0.3
+    version: ^4.0.3
   isar_flutter_libs:
     hosted: https://pub.isar-community.dev
-    version: 4.0.3
-  
+    version: ^4.0.3
+
+pub_dev_dependencies:
+  json_annotation: ^4.9.0
+  build_runner: ^2.4.15
+# pub_dependencies:
+
 # pub_dependencies没有，但是特定项目需要的，在这个地方进行配置 release依赖
 independent_project:
   lib_architecture:
     get: ^4.7.2
-
-#pub_release_dependencies:
-#  path_provider: ^2.1.5
-#  get: ^4.7.2
-#
-## DEV: Pub仓库开发环境依赖版本控制
-#pub_dev_dependencies:
-#  path_provider: ^2.1.5
-#  get: ^4.7.2
 
 # 开发环境依赖版本控制
 iot_dev_dependencies:
@@ -48,7 +47,6 @@ iot_dev_dependencies:
   version_list:
     trans_flutter_interface_watch_device: ^0.1.21
     trans_flutter_sdk_watch_device: ^0.1.21
-    # trans_flutter_lib_architecture: ^0.0.18
     trans_flutter_lib_logger: ^0.0.19
 
 # 发布环境依赖版本控制
