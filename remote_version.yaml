@@ -44,16 +44,14 @@ independent_project:
 # 开发环境依赖版本控制
 iot_dev_dependencies:
   pub_url: https://jfrog.transsion.iot:4432/artifactory/api/pub/flutter-dev-local/
-  version_list:
-    trans_flutter_interface_watch_device: ^0.1.21
-    trans_flutter_sdk_watch_device: ^0.1.21
-    trans_flutter_lib_logger: ^0.0.19
+  trans_flutter_interface_watch_device: ^0.1.21
+  trans_flutter_sdk_watch_device: ^0.1.21
+  trans_flutter_lib_logger: ^0.0.19
 
 # 发布环境依赖版本控制
 iot_release_dependencies:
   # pub_url: https://jfrog.transsion.iot:4432/artifactory/api/pub/flutter-prod-local/
   pub_url: https://jfrog.transsion.iot:4432/artifactory/api/pub/flutter-dev-local/
-  version_list:
-    trans_flutter_interface_watch_device: ^0.1.21
-    trans_flutter_sdk_watch_device: ^0.1.21
-    trans_flutter_lib_logger: ^0.0.19
+  trans_flutter_interface_watch_device: ^0.1.21
+  trans_flutter_sdk_watch_device: ^0.1.21
+  trans_flutter_lib_logger: ^0.0.19
