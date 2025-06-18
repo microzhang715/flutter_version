@@ -16,7 +16,7 @@ pub_release_dependencies:
 pub_dev_dependencies:
   build_runner: ^2.4.15
   retrofit_generator: ^9.2.0
-  json_serializable: ^6.9.5
+  json_serializable: ^6.9.0
 # pub_dependencies:
 
 # pub_dependencies没有，但是特定项目需要的，在这个地方进行配置 release依赖
